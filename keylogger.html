@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keylogger</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 6%;
+        }
+        .direction{
+            display: flex;
+
+        }
+        #left, #right{
+         
+            width: 550px;
+            height: 60px;
+            border: 3px solid red;
+            padding: 5px;
+            text-align: center;
+            margin-top: 3%;
+            margin-left: 3%;
+            background-color: rgba(220, 97, 15, 0.537);
+            font-size: 30px;
+        }
+        .button-container{
+            display: flex;
+            width: 45%;
+        }
+        button{
+            width: 50%;
+            padding: 14px;
+            font-size: 26px;
+            margin-left: 3%;
+          
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="border: 3px solid black; padding:4px; border-radius:6px ; letter-spacing:1px ">KeyLogger</h1>
+        <p style="font-size: 22px;"> welcome welcome welcome</p>
+   
+    <div class="button-container">
+        <button id="start-btn">Start loging KeyPresser </button>
+        <button id="stop-btn">Stop loging KeyPresser</button>  
+    </div>
+    <div class="direction">
+        <div id="left"></div>
+        <div id="right"></div>
+    </div>
+   
+</div>   
+<script src="keylogger.js"></script> 
+</body>
+</html>
